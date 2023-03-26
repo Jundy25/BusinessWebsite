@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" type="png" href="ra.png" />
+<title>Home</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bg {
+  /* The image used */
+  background-image: url("food.gif");
+
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 500px; /* only for demonstration, should be removed */
+  background:;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 80px;
+  width: 70%;
+  background-color: ;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1{
+  text-shadow: 1px 1px white;
+  font-size: 20px;
+  font-family: Forte;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.class1 li a:hover
+{
+  padding: 5px 5px;
+  background-color: ;
+  text-decoration: none; 
+}
+
+ 
+.class2 li a:hover
+{
+  border: 1px solid white;
+  padding: 5px 5px;
+  background-color: gray;
+  text-decoration: none; 
+}
+
+.home li a:hover
+{
+  border: 1px solid white;
+  padding: 5px 5px;
+  background-color: gray;
+  text-decoration: none; 
+}
+
+p {
+  text-shadow: 2px 2px black;
+  font-size: 28px;
+  color: white;
+  margin-left: 20px;
+  font-family: Forte;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:;
+  color: white;
+  text-align: center;
+}
+
+.home li
+{
+  text-shadow: 2px 2px black;
+}
+
+.class2 li a
+{
+  text-shadow: 2px 2px black;
+}
+
+.class3 li
+{
+  text-shadow: 2px 2px white;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+</style>
+</head>
+<body class="bg">
+<section>
+  <nav>
+    <ul class="class1">
+<li><a href= "MEMBERS.html"><img src= "arr.png" width= 30 height= 30></a></li>
+</ul>
+<br><br>
+    <ul class="home">
+      <li><a href="HOME.html" style="text-decoration: none;"><H2><font color= white face= "Goudy Stout">Home</font></a></li><br><br><br><br>
+     </ul>
+    <ul class="class3">  
+      <li class="glass3"><H2><font color= black face= "Goudy Stout">Menu</font></a></li><br><br><br><br>
+    </ul>
+    <ul class="class2">  
+      <li class="glass2"><a href="ABOUT.html" style="text-decoration: none;"><H2><font color= white face= "Goudy Stout">About</font></a></li><br><br><br><br>
+  </nav>
+
+  <article>
+    <div class="row">
+      <div class="column">
+          <img src="shabushabu.png"  width= 330 height= 300>
+          <ul class="class1">    
+         <a href= ><img src="cart.png" width= 100 height= 100></a>&nbsp&nbsp <a href= ""><img src="buy.png" width= 100 height= 90></a>
+          <h1>Add to Cart &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Buy Now</h1>
+        </ul>  
+      </div>
+      <div class="column">
+          <p>Shabu-shabu is a Japanese nabemono hotpot dish of thinly sliced meat and vegetables boiled in water and served with dipping sauces. The term is onomatopoeic, derived from the sound – "swish swish" – emitted when the ingredients are stirred in the cooking pot.</p>
+      </div>
+    </div>
+
+
+<div class="footer">
+  Liceo de Cagayan University
+</div>
+
+      
+    
+ </article>
+</section>
+
+</body>
+</html>

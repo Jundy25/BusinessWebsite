@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="shortcut icon" type="png" href="ra.png" />
+<title>Home</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bg {
+  /* The image used */
+  background-image: url("food.gif");
+
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 500px; /* only for demonstration, should be removed */
+  background:;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+p {
+  text-shadow: 2px 2px black;
+}
+article {
+  float: left;
+  padding: 80px;
+  width: 70%;
+  background-color: ;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.class1 li a:hover
+{
+  padding: 5px 5px;
+  background-color: ;
+  text-decoration: none; 
+}
+
+ 
+.class2 li a:hover
+{
+  border: 1px solid white;
+  padding: 5px 5px;
+  background-color: gray;
+  text-decoration: none; 
+}
+
+.class3 li a:hover
+{
+  border: 1px solid white;
+  padding: 5px 5px;
+  background-color: gray;
+  text-decoration: none; 
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:;
+  color: white;
+  text-align: center;
+}
+
+.h1 {
+  text-shadow: 2px 2px black;
+  font-size: 70px;
+}
+
+.home li
+{
+  text-shadow: 2px 2px white;
+}
+
+.class2 li a
+{
+  text-shadow: 2px 2px black;
+}
+
+.class3 li a
+{
+  text-shadow: 2px 2px black;
+}
+
+</style>
+</head>
+<body class="bg">
+<section>
+  <nav>
+    <ul class="class1">
+<li><a href= "INDEX.html"><img src= "arr.png" width= 30 height= 30></a></li>
+</ul>
+<br><br>
+    <ul class="home">
+      <li><H2><font color= black face= "Goudy Stout">Home</font></a></li><br><br><br><br>
+     </ul>
+    <ul class="class3">  
+      <li class="glass3"><a href="MEMBERS.html" style="text-decoration: none;"><H2><font color= white face= "Goudy Stout">Menu</font></a></li><br><br><br><br>
+    </ul>
+    <ul class="class2">  
+      <li class="glass2"><a href="ABOUT.html" style="text-decoration: none;"><H2><font color= white face= "Goudy Stout">About</font></a></li
+    </ul>  
+  </nav>
+<br><br><br><br>
+<center>
+  <article>
+      <img src="ra.png" alt="RAMEN" width="30%"><br>
+      <strong class="h1"><font face= Verdana size= 100 color= white>Maku Ramen</font></strong>
+  	
+
+<div class="footer">
+  <p>University of Science and Technology of the Philippines</p>
+</div>
+ </article>
+</section>
+
+</body>
+</html>

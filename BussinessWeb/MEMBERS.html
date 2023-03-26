@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" type="png" href="ra.png" />
+<title>Members</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bg {
+  /* The image used */
+  background-image: url("food.gif");
+
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 500px; /* only for demonstration, should be removed */
+  background:;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 80px;
+  width: 70%;
+  background-color: ;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.class1 li a:hover
+{
+   border: 1px white solid;
+   padding: 5px 5px;
+   background-color: gray;
+   text-decoration: none; 
+}
+
+.class2 li a:hover
+{
+  border: 1px solid white;
+  padding: 5px 5px;
+  background-color: gray;
+  text-decoration: none; 
+}
+.arrow li a:hover
+{
+  padding: 5px 5px;
+  background-color: ;
+  text-decoration: none; 
+}
+
+p {
+  font-style: color: black  ;
+  text-shadow: .5px .5px black;
+}
+
+.class1 li a
+{
+  text-shadow: 2px 2px black;
+}
+h2
+{
+  text-shadow: 2px 2px white;
+}
+.class2 li a
+{
+  text-shadow: 2px 2px black;
+}
+/* Raul */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+
+
+
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+
+
+
+/* Mark */
+.container2 {
+  position: relative;
+  width: 50%;
+}
+
+
+
+
+
+.container2:hover .image {
+  opacity: 0.3;
+}
+
+.container2:hover .middle {
+  opacity: 1;
+}
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: ;
+  color: white;
+  text-align: center;
+}
+
+/* Aljay */
+.container3 {
+  position: relative;
+  width: 50%;
+}
+
+
+
+
+
+.container3:hover .image {
+  opacity: 0.3;
+}
+
+.container3:hover .middle {
+  opacity: 1;
+}
+
+
+
+/* Ivan */
+.container4 {
+  position: relative;
+  width: 50%;
+}
+
+
+
+
+
+.container4:hover .image {
+  opacity: 0.3;
+}
+
+.container4:hover .middle {
+  opacity: 1;
+}
+
+
+
+/* Jalanie */
+.container5 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container5:hover .image {
+  opacity: 0.3;
+}
+
+.container5:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background: rgba(204, 204, 204, 0.5);
+  color: white;
+  font-size: 16px;
+  padding: 8px 30px;
+  font-family: "Arial Black";
+  text-shadow: 2px 2px black;
+}
+
+.column {
+  float: left;
+  width: 18%;
+  margin-left: 10px;
+  transform: translat(-50% -50%);
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+</style>
+</head>
+<body class= "bg">
+
+
+<section>
+  <nav>
+    <ul class="arrow">
+      <li><a href= "HOME.html"><img src= "arr.png" width= 30 height= 30></a></li>
+    </ul>
+    <br><br>
+    <ul class="class1">
+      <li class="glass1"><a href="HOME.html" style="text-decoration: none;"><H2><font color= White face= "Goudy Stout">Home</font></a></li><br><br><br><br>
+      </ul>
+    <ul>
+      <li><H2><font color= Black face= "Goudy Stout">Menu</font></a></li><br><br><br><br>
+    </ul>  
+    <ul class="class2">  
+      <li class="glass2"><a href="ABOUT.html" style="text-decoration: none;"><H2><font color= white face= "Goudy Stout">About</font></a></li><br><br><br><br>
+    </ul>
+    
+  </nav>
+
+
+
+<br><br><br><br>
+
+
+<div class="row">
+  <div class="column">
+    <div class="container"> 
+      <a href="RAMEN.html"><img src="ramen.png" class="image" width= 190 height= 190></a>
+      <div class="middle">
+        <div class="text">Ramen</div>
+      </div>
+    </div>
+  </div> 
+
+  <div class="column">
+    <div class="container2"> 
+      <a href="SUSHI.html"><img src="sushi1.png" class="image" width= 190 height= 190></a>
+      <div class="middle">
+        <div class="text">Sushi</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container3"> 
+     <a href="SHABU.html"><img src="shabushabu.png" class="image" width= 210 height= 190></a>
+      <div class="middle">
+        <div class="text">Shabu-Shabu</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container4"> 
+     <a href="ONIGIRI.html"><img src="oni.png" class="image"width= 210 height= 190></a>
+      <div class="middle">
+        <div class="text">Onigiri</div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="container"> 
+      <a href="MOCHI.html"><img src="mochi.png" class="image" width= 190 height= 190></a>
+      <div class="middle">
+        <div class="text">Mochi</div>
+      </div>
+    </div>
+  </div> 
+
+  <div class="column">
+    <div class="container2"> 
+      <a href="MELON.html"><img src="melon.png" class="image" width= 190 height= 190></a>
+      <div class="middle">
+        <div class="text">Melon Soda</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container3"> 
+     <a href="MATCHA.html"><img src="matcha.png" class="image" width= 210 height= 190></a>
+      <div class="middle">
+        <div class="text">Matcha Tea</div>
+      </div>
+    </div>
+  </div>
+
+  
+</div>  
+  
+<div class="footer">
+<p>University of Science and Technology of the Philippines</p>
+</div>
+
+
+ </article>
+</section>
+
+</body>
+</html>
